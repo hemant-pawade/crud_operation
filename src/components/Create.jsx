@@ -9,7 +9,6 @@ import { AiFillDatabase } from "react-icons/ai";
 const Create = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const header = { "Access-Control-Allow-Origin": "*" };
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {

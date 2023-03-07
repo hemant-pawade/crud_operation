@@ -8,7 +8,7 @@ import Update from "./components/Update";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter >
         <Routes>
           <Route exact path="/" element={<Create />}></Route>
           <Route path="/read" element={<Read />}></Route>
