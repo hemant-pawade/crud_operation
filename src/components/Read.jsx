@@ -85,7 +85,7 @@ const Read = () => {
 
       </Table>
 
-     <Link to="/"> <Button className="px-5 py-3 my-5  btn-secondary"><BiArrowBack/></Button></Link>
+     <Link to="/crud_operation"> <Button className="px-5 py-3 my-5  btn-secondary"><BiArrowBack/></Button></Link>
     </>
   );
 };
